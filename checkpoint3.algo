@@ -1,0 +1,22 @@
+
+    PROCEDURE dotProduct(VAR ps)
+    VAR
+       V1 : ARRAY_OF INTEGER[2] := [5,7];
+       V2 : ARRAY_OF INTEGER[2] := [6,8];
+       ps : INTEGER := 0
+    BEGIN
+    FOR i FROM 0 TO V1.length - 1 STEP 1  DO
+      ps := V1[i] * V2[i]
+    END_FOR
+
+ALGORITHM algorithm_name
+VAR
+  ps: INTEGER := 0
+BEGIN
+  dotProduct(ps)
+  write(ps)
+            
+
+             IF (v1[i] * v2[i] = 0) THEN
+             write ("V1 and V2 are orthogonal")
+             END
